@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <hello-methods />
+    <styling />
   </div>
 </template>
 
 <script>
-import HelloMethods from './components/Methods/HelloMethods.vue'
+import Styling from './components/Styling/Styling.vue'
 
 export default {
   name: 'App',
-  components: { HelloMethods },
+  components: { Styling },
 }
 </script>
 

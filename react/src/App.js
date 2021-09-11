@@ -1,11 +1,11 @@
 import './App.css'
 
-import HelloFunctions from './Methods/HelloFunctions'
+import StyledComponent from './Styling/StyledComponent.js'
 
 function App() {
   return (
     <div className="App">
-      <HelloFunctions />
+      <StyledComponent />
     </div>
   )
 }
