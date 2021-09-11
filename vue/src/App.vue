@@ -1,11 +1,15 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <hello-methods />
+  </div>
 </template>
 
 <script>
+import HelloMethods from './components/Methods/HelloMethods.vue'
+
 export default {
   name: 'App',
-  components: {},
+  components: { HelloMethods },
 }
 </script>
 
