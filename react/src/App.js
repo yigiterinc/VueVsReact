@@ -1,11 +1,11 @@
 import './App.css'
 
-import StyledComponent from './Styling/StyledComponent.js'
+import FormInputBinding from './FormInputBinding/FormInputBinding.js'
 
 function App() {
   return (
     <div className="App">
-      <StyledComponent />
+      <FormInputBinding />
     </div>
   )
 }

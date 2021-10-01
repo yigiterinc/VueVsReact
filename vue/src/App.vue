@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <styling />
+    <form-input-binding />
   </div>
 </template>
 
 <script>
-import Styling from './components/Styling/Styling.vue'
+import FormInputBinding from '../src/FormInputBinding/FormInputBinding.vue'
 
 export default {
   name: 'App',
-  components: { Styling },
+  components: { FormInputBinding },
 }
 </script>
 
