@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <form-input-binding />
+    <conditional-rendering />
   </div>
 </template>
 
 <script>
-import FormInputBinding from '../src/FormInputBinding/FormInputBinding.vue'
+import ConditionalRendering from './components/ConditionalRendering/ConditionalRendering.vue'
 
 export default {
   name: 'App',
-  components: { FormInputBinding },
+  components: { ConditionalRendering },
 }
 </script>
 
