@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <conditional-rendering />
+    <parent />
   </div>
 </template>
 
 <script>
-import ConditionalRendering from './components/ConditionalRendering/ConditionalRendering.vue'
+import Parent from './ChildToParent/Parent.vue'
 
 export default {
   name: 'App',
-  components: { ConditionalRendering },
+  components: { Parent },
 }
 </script>
 
 <style>
-#app {
+#a RenderingListspp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
