@@ -1,11 +1,11 @@
 import './App.css'
 
-import Parent from './ChildToParent/Parent'
+import ReactToDataChanges from './ReactToDataChanges/ReactToDataChanges'
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <ReactToDataChanges />
     </div>
   )
 }

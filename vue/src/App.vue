@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <parent />
+    <react-to-data-changes />
   </div>
 </template>
 
 <script>
-import Parent from './ChildToParent/Parent.vue'
+import ReactToDataChanges from './ReactToDataChanges/ReactToDataChanges.vue'
 
 export default {
   name: 'App',
-  components: { Parent },
+  components: { ReactToDataChanges },
 }
 </script>
 
