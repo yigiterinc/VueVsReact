@@ -1,25 +1,14 @@
 <template>
   <div id="app">
-    <react-to-data-changes />
+    <structure />
   </div>
 </template>
 
 <script>
-import ReactToDataChanges from './ReactToDataChanges/ReactToDataChanges.vue'
+import Structure from './Structure/Structure.vue'
 
 export default {
   name: 'App',
-  components: { ReactToDataChanges },
+  components: { Structure },
 }
 </script>
-
-<style>
-#a RenderingListspp {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

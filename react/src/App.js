@@ -1,11 +1,11 @@
 import './App.css'
 
-import ReactToDataChanges from './ReactToDataChanges/ReactToDataChanges'
+import Structure from './Structure/Structure'
 
 function App() {
   return (
     <div className="App">
-      <ReactToDataChanges />
+      <Structure />
     </div>
   )
 }
